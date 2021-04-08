@@ -1,19 +1,15 @@
 {
-  "name": "10-js-ui-wdio-seed_azanir",
+  "name": "js-ui-wdio-azanir",
   "version": "1.0.0",
+  "private": true,
   "description": "Demo project",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AZANIR/10-js-ui-wdio-seed_AZANIR.git"
+    "url": "git+https://github.com/AZANIR/js-ui-wdio-AZANIR.git"
   },
-  "author": "Leonid Maiyevskiy",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/AZANIR/10-js-ui-wdio-seed_AZANIR/issues"
-  },
-  "homepage": "https://github.com/AZANIR/10-js-ui-wdio-seed_AZANIR#readme"
+  "author": "Leonid Mayevskiy",
+  "license": "MIT"
 }
