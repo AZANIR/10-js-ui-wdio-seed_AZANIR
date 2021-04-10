@@ -4,12 +4,23 @@
   "private": true,
   "description": "Demo project",
   "scripts": {
-    "test": ""
+    "test": "npx wdio run wdio.conf.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AZANIR/js-ui-wdio-AZANIR.git"
   },
   "author": "Leonid Mayevskiy",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@wdio/cli": "^7.3.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.3.1",
+    "@wdio/mocha-framework": "^7.3.1",
+    "@wdio/spec-reporter": "^7.3.1",
+    "@wdio/sync": "^7.3.1",
+    "chromedriver": "^89.0.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  }
 }
