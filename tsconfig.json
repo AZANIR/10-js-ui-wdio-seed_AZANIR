@@ -4,7 +4,8 @@
       "allowJs": true,
       "inlineSourceMap": true,
       "types": [
-          "node", 
+          "node",
+          "jquery",
           "@wdio/sync", 
           "@wdio/mocha-framework"
       ],

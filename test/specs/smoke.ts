@@ -2,6 +2,6 @@
 describe('Website', function() {
     it('should be alive', function() {
         browser.url('/');
-        const img = "";
+        const elem = $('a');
     });
 });

@@ -13,6 +13,7 @@
   "author": "Leonid Mayevskiy",
   "license": "MIT",
   "dependencies": {
+    "@types/jquery": "^3.5.5",
     "@wdio/cli": "^7.3.1"
   },
   "devDependencies": {
