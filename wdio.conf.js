@@ -1,5 +1,4 @@
-require("ts-node").register({ files: true });
-
+require("ts-node").register({files:true});
 exports.config = {
     //
     // ====================
@@ -84,7 +83,7 @@ exports.config = {
     // - @wdio/mocha-framework, @wdio/jasmine-framework
     // - @wdio/local-runner
     // - @wdio/sumologic-reporter
-    // - @wdio/cli, @wdio/config, @wdio/sync, @wdio/utils
+    // - @wdio/cli, @wdio/config, @wdio/utils
     // Level of logging verbosity: trace | debug | info | warn | error | silent
     // logLevels: {
     //     webdriver: 'info',
@@ -99,7 +98,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://funnyducks.com.ua',
+    baseUrl: 'https://demo.litecart.net',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
