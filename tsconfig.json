@@ -3,7 +3,7 @@
     "outDir": "./build",
     "allowJs": true,
     "sourceMap": false,
-    "target": "es6",
+    "target": "es2019",
     "module": "commonjs",
     "removeComments": true,
     "noImplicitAny": true,
