@@ -14,7 +14,8 @@
   "author": "AZANIR",
   "license": "MIT",
   "dependencies": {
-    "@wdio/cli": "^7.5.1"
+    "@wdio/cli": "^7.5.1",
+    "chai": "^4.3.4"
   },
   "devDependencies": {
     "@types/chai": "^4.2.16",
